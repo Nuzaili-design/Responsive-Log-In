@@ -1,0 +1,97 @@
+body {
+    background: url(https://okan.edu.tr/uploads/olearn/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+form, .f {
+    text-align: center;
+    padding: 30px;
+    margin: 10px;
+    background: rgba(9, 9, 9, 0.753);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    color: aliceblue;
+    text-decoration: none;
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+}
+
+input {
+    color: rgb(250, 247, 247);
+    background-color: black;
+    margin: 10px;
+    padding: 7px;
+    width: 80%;
+}
+
+
+.footer-social-icons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.monumentLogo {
+    width: 80px;
+    margin: 10px;
+}
+
+a.appimg img {
+    margin: 5px;
+    width: 70px;
+    height: auto;
+}
+
+.icon{
+    background-color: aliceblue;
+    border-radius: 30px;
+    width: 8vh;
+}
+/* Media Queries */
+@media (min-width: 768px) {
+    body {
+        padding: 50px;
+    }
+
+    .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    form, .f {
+        padding: 40px;
+        max-width: 400px;
+    }
+
+    .monumentLogo {
+        width: 100px;
+    }
+}
+
+@media (min-width: 1024px) {
+    form, .f {
+        padding: 50px;
+        max-width: 500px;
+    }
+
+    .monumentLogo {
+        width: 120px;
+    }
+}
