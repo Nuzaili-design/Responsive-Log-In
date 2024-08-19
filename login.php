@@ -1,8 +1,8 @@
 <?php
 
 $servername = "localhost"; 
-$username = "root1"; // change it to yours though
-$password = "1234"; // same, coz that is mine
+$username = "root1"; // Change it to yours though
+$password = "1234"; // Same
 $dbname = "login";
 
 
