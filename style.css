@@ -9,7 +9,10 @@ body {
     margin: 0;
     height: 100vh;
 }
-
+.container {
+    display:grid;
+    gap: 20px;
+}
 
 
 form, .f {
